@@ -1,0 +1,28 @@
+{
+  "asset_scale": "1 Three.js unit ~= 1 meter",
+  "coordinate_system": "+Y up, +Z toward rear, driver is -X",
+  "driver_airbag_mount": [
+    -0.745,
+    1.15,
+    -0.399
+  ],
+  "airbag_model_local_axes": "+Z toward driver, origin at hub",
+  "car_model": "sedan_cabin.glb",
+  "animated_airbag_model": "driver_airbag_animated.glb",
+  "animation": "DeployAndDeflate, 0.0 through 0.8 seconds (intentionally slowed for viewing)",
+  "animation_states": [
+    "closed",
+    "initial burst",
+    "expanding",
+    "fully inflated",
+    "deflated"
+  ],
+  "driver_model": {
+    "url": null,
+    "bone_map": "auto",
+    "height_m": 1.62,
+    "label": "女性駕駛 rigged GLB",
+    "note": "Set url (e.g. ./assets/driver_female_rigged.glb) once a real rigged humanoid GLB exists. null = procedural placeholder. See 人物模型替換說明.md."
+  },
+  "note": "Visual demonstration only, not calibrated physical crash-test data."
+}
