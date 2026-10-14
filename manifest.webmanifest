@@ -1,0 +1,16 @@
+{
+  "name": "Crash Lab｜3D 碰撞實驗室",
+  "short_name": "Crash Lab",
+  "description": "手機版 3D 車內碰撞與氣囊動畫實驗遊戲",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#07121f",
+  "theme_color": "#07121f",
+  "lang": "zh-TW",
+  "icons": [
+    {"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
